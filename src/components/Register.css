@@ -1,0 +1,49 @@
+.con-form{
+    /* border: 2px solid red; */
+    width: 50%;
+    float: right;
+    margin-left: 15%;
+    margin-right: 15px;
+    position: relative;
+    margin-top: -52%;
+}
+.con-form h2{
+    margin-bottom: 5px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #161A30;
+}
+.log-btn1{
+    padding: 1px 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #2506ad;
+    box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+    transition: 0.3s ease;
+    border: none;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    padding-bottom: 5%;
+}
+.log-btn1:hover {
+    background: #421cecf5;
+  }
+  .create-account1{
+    border: none;
+    background: none;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .create-account1:hover {
+    color: #421cecf5;
+  }

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+
+
+.profile_container {
+  /* border: 2px solid red; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 300px;
+}
+
+.profile_card{
+  /* border: 2px solid red; */
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 22, 0.9);
+  transition: 0.2s;
+  text-align: center;
+}
+
+.profile_card:hover{
+  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  background: #161A30;
+}
+
+h1 {
+  color: #333;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-top: 100px;
+  letter-spacing: 1px;
+  /* border: 2px solid rgb(190, 11, 41); */
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  font-weight: 700;
+ 
+}
+
+.profile_main{
+ 
+  position: fixed;
+  top: 15%;
+  right: 10%;
+  /* border: 2px solid red; */
+}
+
+.profile-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  border: 1px solid #ffffff40;
+  background-color: #ffffff;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+.profile_image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+.small-card{
+  /* border: 2px solid red; */
+padding-bottom: 10%;
+  margin-top: -50%;
+  background-color: #427d9d80;
+}
+
+.profile_image .profile-pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+.profile_data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.profile_data h2{
+  font-size: 33px;
+  font-weight: 600;
+  color: #333;
+}
+
+.profile_span{
+  font-size: 18px;
+  color: #333;
+}
+
+.profile_row{
+  display: flex;
+  align-items: center;
+}
+
+.profile_row .profile_infor{
+  text-align: center;
+  padding: 0 20px;
+}
+
+.profile_buttons{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.profile_buttons .btn{
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 8px 25px;
+  border-radius: 5px;
+  font-size: 18px;
+  white-space: nowrap;
+  color: #161A30;
+  background-color:lightskyblue;
+}
+
+.profile_buttons .btn:hover{
+  background-color:rgba(135, 206, 250, 0.766);
+  letter-spacing: 1.5px;
+}
